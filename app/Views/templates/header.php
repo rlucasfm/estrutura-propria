@@ -35,7 +35,7 @@
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-desktop"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">EudesRo <sup>up</sup></div>
+                <div class="sidebar-brand-text mx-3">Estrutura <sup>up</sup></div>
             </a>
 
             <!-- Sidebar Toggler (Sidebar) -->
@@ -50,7 +50,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <span>Início</span></a>
             </li>
 
             <!-- Divider -->
@@ -58,7 +58,7 @@
 
             <!-- Heading -->
             <div class="sidebar-heading">
-                Clientes
+                Minhas estruturas
             </div>
 
             <!-- Nav Item - Cadastro de clientes -->
@@ -66,41 +66,16 @@
                 <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseUtilities"
                     aria-expanded="true" aria-controls="collapseUtilities">
                     <i class="fas fa-fw fa-wrench"></i>
-                    <span>Cadastrar clientes</span>
+                    <span>Gerenciar estruturas</span>
                 </a>
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Clientes:</h6>
-                        <a class="collapse-item" href="utilities-color.html">Cadastro</a>
-                        <a class="collapse-item" href="utilities-border.html">Importar tabela</a>
+                    <div class="bg-white py-2 collapse-inner rounded">                        
+                        <a class="collapse-item" href="#">Criar estrutura própria</a>
+                        <a class="collapse-item" href="#">Lista de estruturas</a>
                     </div>
                 </div>
-            </li>
-
-            <!-- Divider -->
-            <hr class="sidebar-divider">
-
-            <!-- Heading -->
-            <div class="sidebar-heading">
-                Campanhas
-            </div>
-
-            <!-- Nav Item - Gerenciamento de campanhas -->
-            <li class="nav-item">
-                <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages"
-                    aria-expanded="true" aria-controls="collapsePages">
-                    <i class="fas fa-fw fa-folder"></i>
-                    <span>Gerenciar campanhas</span>
-                </a>
-                <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
-                    <div class="bg-white py-2 collapse-inner rounded">
-                        <h6 class="collapse-header">Campanhas:</h6>
-                        <a class="collapse-item" href="login.html">Nova campanha</a>
-                        <a class="collapse-item" href="register.html">Campanhas ativas</a>
-                    </div>
-                </div>
-            </li>
+            </li>            
             
             <!-- Divider -->
             <hr class="sidebar-divider d-none d-md-block">            
@@ -108,8 +83,8 @@
             <!-- Sidebar Message -->
             <div class="sidebar-card">
                 <img class="sidebar-card-illustration mb-2" src="/static/img/undraw_rocket.svg" alt="">
-                <p class="text-center mb-2"><strong>EudesRo</strong> oferece os melhores sistemas, quer saber mais?</p>
-                <a class="btn btn-success btn-sm" href="https://startbootstrap.com/theme/sb-admin-pro">Saiba mais!</a>
+                <p class="text-center mb-2"><strong>RLDev</strong> oferece os melhores sistemas, quer saber mais?</p>
+                <a class="btn btn-success btn-sm" href="https://www.linkedin.com/in/richard-lucas-furtado-de-mendonca/" target="_blank">Saiba mais!</a>
             </div>
 
         </ul>
@@ -129,7 +104,7 @@
                         <i class="fa fa-bars"></i>
                     </button>
 
-                    <h3 class="mr-auto mt-3">EudesRo</h3>
+                    <h3 class="mr-auto mt-3">Randerson Araújo</h3>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">                        
@@ -169,7 +144,7 @@
                         <li class="nav-item dropdown no-arrow">
                             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button"
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <span class="mr-2 d-none d-lg-inline text-gray-600 small">Usuário</span>
+                                <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= esc($name) ?></span>
                                 <img class="img-profile rounded-circle"
                                     src="/static/img/undraw_profile.svg">
                             </a>
