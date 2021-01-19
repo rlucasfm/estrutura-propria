@@ -27,7 +27,7 @@ $(document).ready(function() {
         $('#button_chechout_hero').show(); 
         $('#button_chechout_final').show();
         $('#preco').show(); 
- }, 90000); 
+ }, 10000); 
 });
 
  //1550

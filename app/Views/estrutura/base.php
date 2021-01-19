@@ -7,11 +7,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Reneclei de Sousa">
 
-    <meta property="og:title" content="Curso de APH">
-    <meta property="og:description" content="Curso de APH com Certificado de 80 Horas e Carteirinha" />
+    <meta property="og:title" content="Fornecedores 7 Chaves">
+    <meta property="og:description" content="Os melhores fornecedores para revenda do Brasil" />
     <meta property="og:type" content="website">
 
-    <title>Curso de APH</title>
+    <title>Fornecedores 7 Chaves</title>
 
     <!--<link rel="shortcut icon" href="/static/img/fav.png">-->
 
@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="/static/css/style.css">
 
     <link href="/static/css/ripple.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
 
     <script type="text/javascript">
-   var backr = 'https://cursodeaph.com/lp';
+   var backr = '<?= esc($checkout_link) ?>';
    
    history.pushState({},"",location.href);
       history.pushState({},"",location.href);
@@ -51,7 +53,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    Você foi selecionado (a) para participar deste treinamento 100% online.
+                    Você foi selecionado (a) p/ se tornar um lojista de sucesso em sua cidade.
                 </div>
             </div>
         </div>
@@ -61,16 +63,16 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <img src="/static/img/ultrasecreto.png" class="ultrasecreto">
+                    <img src="/static/img/ultrasecreto.svg" class="ultrasecreto">
                 </div>
             </div>
             <div class="d-flex justify-content-center" style="margin-bottom: 20px">
-                <h1>Curso de APH Com Certificado de 80 Horas + Carteirinha</h1>
+                <h1>LISTA DE FORNECEDORES BARATOS PARA MICRO LOJISTAS É REVELADA</h1>
             </div>
             <div class="row">
                 <div class="col">
                     <iframe
-                        src="https://www.youtube.com/embed/WMSEuTA7SB4?wmode=opaque&amp;showinfo=0&amp;autoplay=1&amp;controls=0&amp;modestbranding=1&amp;rel=0"
+                        src="https://www.youtube.com/embed/ky0803CC9yI?wmode=opaque&amp;showinfo=0&amp;autoplay=1&amp;controls=0&amp;modestbranding=1&amp;rel=0"
                         id="iframe_video" frameborder="0" webkitallowfullscreen="" mozallowfullscreen=""
                         allowfullscreen=""></iframe>
                 </div>
@@ -80,19 +82,18 @@
                     <div class="som"> <img src="/static/img/audio.svg">Verifique se o seu som está ligado!</div>
                 </div>
             </div>
-
             <div class="row" id="preco" style="display: none;">
                 <div class="col">
-                    <center><img src="https://cursodeaph.com/stories/preco.png" style="width: 90%"></center>                    
+                    <center><img src="https://cursodeaph.com/lp/preco.png" style="width: 90%"></center>                    
                 </div>
             </div>
 
             <div class="row button_container" id="button_chechout_hero">
                 <div class="col">
                     <!-- CHECKOUT BUTTON -->
-                    <a href="<?= esc($checkout_link); ?>" target="blank">
-                        <button type="button" data-ripple-color="#fff" class="btn material-ripple" data-animation="
-                        ripple">Quero Participar Dessa Turma</button></a>
+                    <a href="<?= esc($checkout_link) ?>" target="blank">
+                        <button type="button" data-ripple-color="#fff" class="btn material-ripple animate__animated animate__pulse animate__infinite infinite" data-animation="
+                        ripple">Quero Minha Lista Agora</button></a>
                     <div>
                         <ul class="bandeiras">
                             <li><img src="/static/img/mastercard.png"></li>
@@ -119,13 +120,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/1.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/1.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Luciana disse:
                             </div>
                             <div class="comentario-c">
-                                Feliiiz demais!!! Obrigada Reneclei, achava que esse tipo de treinamento online não era seguro, mas msmo assim quis tentar por causa da garantia de 7 dias pra testar o curso e eu me surpreendi com o treinamento, to simplesmente apaixonada😍😍😍
+                                Feliiiz demais!!! Obrigada Maria, eu achava que essas listas de fornecedores não eram de verdade, mas msmo assim adquiri a minha por causa da garantia de 7 dias pra testar a lista e eu me surpreendi com a qualidade dos fornecedores, to simplesmente apaixonada😍😍😍
                             </div>
                         </div>
                         <div class="hora-c">
@@ -137,13 +138,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/2.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/2.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Larissa disse:
                             </div>
                             <div class="comentario-c">
-                                Gente, quem ta perguntado se o certificado é reconhecido ou válido, eu entreguei ele pra assumir um concurso do exército e eles aceitaram de boas!!! 🙂
+                                Gente, quem ta perguntado se a entrega é rápida, eu comprei 12 kits de body´s infantis e chegaram aqui em casa em menos de 7 dias, mas claro, deve variar de região pra região!!! 🙂
                             </div>
                         </div>
                         <div class="hora-c">
@@ -155,13 +156,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/3.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/3.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Neusa disse:
                             </div>
                             <div class="comentario-c">
-                                Já imprimi meu certificado lindão, vou mandar emplastificar amanhã mesmo!!! Super indico o curso!
+                                Não acredito que eu vou parar de viajar pra comprar calcinhas e Lingerie no brás, achei fornecedores ótimos na lista da Maria! Agora eu sei porque ela escondia a 7 chaves kkk
                             </div>
                         </div>
                         <div class="hora-c">
@@ -174,13 +175,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/4.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/4.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Danielli disse:
                             </div>
                             <div class="comentario-c">
-                                Sou cuidadora de idosos e sempre quis fazer um curso desses, mas na minha cidade nunca tem! Esse curso online me ajudou muito e agora eu vou poder ficar mais segura caso aconteça alguma situação de emergência no trampo!
+                                Gratidão por compartilhar essa lista com agt Maria, só Deus sabe o que passamos no começo pra achar bons fornecedores e você entrega esse ouro assim pra nós! Que Deus continue te abencoando!!!
                             </div>
                         </div>
                         <div class="hora-c">
@@ -193,14 +194,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/5.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/5.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Juliana disse:
                             </div>
                             <div class="comentario-c">
-                                Reneclei você devia vender esse curso por um valor maior, ta barato de mais! Eu já tinha
-                                feito outros treinamentos sobre o assunto mas nunca tinha encontrado um material tão didático quanto esse! Parabéns pelo sucesso!!! 😀
+                                Maria você poderia vender essa lista por um valor maior, além de ter todo tipo de fornecedor, não é como essas outras listas que eu já comprei por aí que vem tudo bagunçado com as imagens destorcidas!!! 😀
                             </div>
                         </div>
                         <div class="hora-c">
@@ -213,13 +213,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/6.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/6.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Camila Silva disse:
                             </div>
                             <div class="comentario-c">
-                                Gente fiquei muito feliz depois que eu ajudei um senhor que sofreu um acidente de moto aqui na minha cidade, graças ao curso eu soube me comportar vendo aquela cena. Depois de avaliar rapidamente o paciente, acionei o SAMU e não deixei ninguem mexer nele!! Graças a Deus ele não teve nenhuma complicação!!
+                                Gente to muito feliz que vou poder abrir minha loja de capinhas aqui na minha cidade, graças a maria tive acesso a um fornecedor que me envia as capinhas direto de SP pela Azul Cargo, chega rapidinho aqui em Minas!!
                             </div>
                         </div>
                         <div class="hora-c">
@@ -232,13 +232,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/7.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/7.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Cristiane disse:
                             </div>
                             <div class="comentario-c">
-                                Comprei pro meu filho, ele tá fazendo curso téc em enfermagem e gostou muito do treinamento  🙂 ele quer ser socorrista do samu!
+                                Acabeir de comprar pra minha filha usar, parece que esse video conta a vida dela todinha kkk  🙂 espero que com essa lista ela também consiga largar essa vida de sacoleira!
                             </div>
                         </div>
                         <div class="hora-c">
@@ -251,13 +251,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/8.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Maria Carolina disse:
                             </div>
                             <div class="comentario-c">
-                                Só profissional da saúde pode fazer?
+                                Essas coisas chegam mesmo?
                             </div>
                         </div>
                         <div class="hora-c">
@@ -270,13 +270,13 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/9.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/9.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Daniela disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Não Maria, esse tipo de curso todo mundo deveria fazer poque todos nós estamos propensos a passar por situações de emergência. Meu pai é hipertenso e eu quem cuido dele, fiz o treinamento pra saber agir caso aconteça algo ruim que Deus o livre...
+                                    Pra mim chega certinho, sigo todas as dicas de segurança na hora de pagar! Já to comprando pela terceira vez aqui pra minha boutique...
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -288,13 +288,13 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/10.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/10.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Janice disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Verdade Daniela, todo mundo tinha que saber agir diante de uma emergência até porque segundos fazem a diferença dependendo do caso. As vezes o SAMU pode demorar mais que o desejado e você deveria saber ao menos fazer uma boa RCP até que o serviço chegue no local!
+                                    Verdade Daniela, com essa lista agt não precisa se preocupar muito pois realmente o pessoal é muito atencioso e envia tudo certinho!
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -306,13 +306,13 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/8.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Maria Carolina disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Brigada meninas, vou me matricular tbm 🙂
+                                    Brigada meninas, vou pegar a minha agora, to montando uma loja de bijoteria com minha sogra e estamos precisando de alguns fornecedores 🙂
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -325,13 +325,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/11.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/11.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Helena disse:
                             </div>
                             <div class="comentario-c">
-                                Pessoal, tem que assistir o vídeo que o instrutor vai falar como vocês vão fazer pra se matricular 😀
+                                Pessoal, tem que assistir o vídeo que a Maria vai explicar como vocês vão fazer pra pegar a lista de vocês também 😀
                             </div>
                         </div>
                         <div class="hora-c">
@@ -343,13 +343,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/12.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/12.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Michele disse:
                             </div>
                             <div class="comentario-c">
-                                Pessoal, eu to amando o curso!! já indiquei pra sala toda!.
+                                Pessoal, eu to amando a lista!! já indiquei até pra umas colegas do nosso grupo de mulheres empreendedoras!.
                             </div>
                         </div>
                         <div class="hora-c">
@@ -361,13 +361,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/13.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/13.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Juliana disse:
                             </div>
                             <div class="comentario-c">
-                                Todo curso que o Reneclei Faz eu to dentro, já tive a honra de ir no Maranhão fazer um Curso presencial com a equipe da Emergência 1, Recomendo de olhos fechados!
+                                Realmente chega muito rápido, foi só eu fazer o pagamento e já tava no meu email!! Simplesmente apaixonada pela organização da lista, da vontade de fazer uma lojinha pra cada tipo de produto kkkk
                             </div>
                         </div>
                         <div class="hora-c">
@@ -379,13 +379,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/14.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/14.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Catarina disse:
                             </div>
                             <div class="comentario-c">
-                                Paguei o boleto e no outro dia recebi o acesso no email e no whatsapp, eles são bem prestativos!!!
+                                Parece que sou o único homem interessado em empreender por aqui kkk , tenho uma loja de réplicas peruanas de camisetas importadas, vende muito aqui na minha cidade! Consegui 2 fornecedores mais em conta nessa lista da Maria, já recuperei o investimento da lista vendendo só 2 camisas da Tommy!!
                             </div>
                         </div>
                         <div class="hora-c">
@@ -397,7 +397,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/15.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/15.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Jéssika disse:
@@ -416,14 +416,14 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/16.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/16.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Giovanna disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Eu pensava a mesma coisa, mas compraria 10 vezes depois que vi que funciona 🙂 Bora
-                                    ser feliz flor! A gente precisa se capacitar!!!
+                                    Eu pensava a mesma coisa, mas compraria 10 vezes depois que vi que chega certinho 🙂 Bora
+                                    ser feliz flor! A gente precisa mudar de vida!!!
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -435,13 +435,13 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/17.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/17.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Bruna disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Funciona sim flor! Pode acreditar. Eles ainda dão 7 dias de garantia, se você não gostar é só mandar um email pedindo o reembolso, mas vc vai gostar pq eu gostei  kkkk.
+                                    Funciona sim! Pode acreditar. Ela ainda dá 7 dias de garantia, se você não gostar é só mandar um email pedindo o reembolso, mas vc vai gostar pq eu que sou chata gostei, avalie  kkkk.
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -454,13 +454,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/18.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/18.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Claudia disse:
                             </div>
                             <div class="comentario-c">
-                                Estou muito mais seguro com os protocolos novos que sairam esse ano!!! Brigada 🙂
+                                A variedade é enorme, amando a lista!!! Brigada 🙂
                             </div>
                         </div>
                         <div class="hora-c">
@@ -472,13 +472,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/19.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/19.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Adriana disse:
                             </div>
                             <div class="comentario-c">
-                                <p>Reneclei vc ta vendendo muito barato! <span class="blue">@joycelima</span> esse aqui que te falei que funcionou pra mim colocar lá no serviço. Pode comprar!</p>
+                                <p>Maria vc ta vendendo muito barato! <span class="blue">@joycelima</span> essa aqui que te falei que o pedro comprou e conseguiu os fornecedores de relógio. Pode comprar!</p>
                             </div>
                         </div>
                         <div class="hora-c">
@@ -490,13 +490,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/20.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/20.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Aline disse:
                             </div>
                             <div class="comentario-c">
-                                Acabei de receber o meu acesso!!!! Muiiiiiiito rápido o suporte!!!
+                                Acabei de receber a minha!!!! Muiiiiiiito rápido o suporte!!!
                             </div>
                         </div>
                         <div class="hora-c">
@@ -508,13 +508,13 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/21.jpg" alt="Sedução Secreta">
+                                <img src="/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Stefanny disse:
                             </div>
                             <div class="comentario-c">
-                                Vou fazer com calma, agt tem um ano pra finalizar!!! Quero ficar top no APH 😉😀
+                                Minha sócia não acreditou quando eu mostrei a lista pra ela!!! Só de passagens, gastavamos mais de 700 nas nossas viagens pra reabastecer a loja! Valee muiiito a pena gente 😉😀
                             </div>
                         </div>
                         <div class="hora-c">
@@ -527,7 +527,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/22.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/22.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Gisele disse:
@@ -545,13 +545,13 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/21.jpg" alt="Sedução Secreta">
+                                    <img src="/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Bruna disse:
                                 </div>
                                 <div class="comentario-c">
-                                    Eu fiz no tempo que ainda tava na graduação, funciona com certeza!.
+                                    Claro amiga, chega tudo no email e você tem os 7 dias que a Maria falou pra poder testar.
                                 </div>
                             </div>
                             <div class="hora-c">
@@ -568,25 +568,25 @@
             </div>
         </div>
 
-        <img src="/static/img/c1.png" alt="Sedução Secreta" data-enllax-ratio=".9" data-enllax-type="foreground"
+        <img src="/static/img/c1.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
             style="z-index: -99" class="c1">
 
-        <img src="/static/img/c2.png" alt="Sedução Secreta" data-enllax-ratio=".5" data-enllax-type="foreground"
+        <img src="/static/img/c2.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".5" data-enllax-type="foreground"
             style="z-index:-99" class="c2">
 
-        <img src="/static/img/c3.png" alt="Sedução Secreta" data-enllax-ratio=".4" data-enllax-type="foreground"
+        <img src="/static/img/c3.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".4" data-enllax-type="foreground"
             style="z-index:-99" class="c3">
 
-        <img src="/static/img/c4.png" alt="Sedução Secreta" data-enllax-ratio=".7" data-enllax-type="foreground"
+        <img src="/static/img/c4.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".7" data-enllax-type="foreground"
             style="z-index:-99" class="c4">
 
-        <img src="/static/img/c5.png" alt="Sedução Secreta" data-enllax-ratio=".3" data-enllax-type="foreground"
+        <img src="/static/img/c5.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".3" data-enllax-type="foreground"
             style="z-index:-99" class="c5">
 
-        <img src="/static/img/c6.png" alt="Sedução Secreta" data-enllax-ratio=".9" data-enllax-type="foreground"
+        <img src="/static/img/c6.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
             style="z-index:-99" class="c6">
 
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/static/img/bg-top.png"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="/static/img/bg-top.jpg"></div>
 
     </section>
 
@@ -595,9 +595,9 @@
             <div class="row button_container text-center">
                 <div class="col">
                     <!-- CHECKOUT BUTTON -->
-                    <a href="<?= esc($checkout_link); ?>" target="blank">
-                        <button type="button" data-ripple-color="#fff" class="btn material-ripple" data-animation="
-                            ripple">Quero Aprender APH Agora</button></a>
+                    <a href="<?= esc($checkout_link) ?>" target="blank">
+                        <button type="button" data-ripple-color="#fff" class="btn material-ripple animate__animated animate__pulse animate__infinite infinite" data-animation="
+                            ripple">Quero Minha Lista Agora</button></a>
                     <div>
                         <ul class="bandeiras">
                             <li><img src="/static/img/mastercard.png"></li>
@@ -629,20 +629,17 @@
             <div class="row">
                 <div class="col-xs-12 col-md-6 pirataria">
                     <h3> Pirataria é <b>CRIME</b></h3>
-                    A venda do Curso de APH só pode ser realizada através deste site, registrado em nome de
-                    EMERGÊNCIA 1 TREINAMENTOS. Qualquer outro site onde você encontre este programa é uma
-                    FALSIFICAÇÃO e vai contra as leis. Evite falsificações e recuse conteúdos ilegais ou pirateados.
-                    NÃO adquira programas parecidos e que não são baseados em evidências. Não nos responsabilizamos por compras realizadas em outros sites.
+                    A venda da Lista de Fornecedores 7 Chaves só pode ser realizada através deste site, registrado no nome da Maria Clara. Qualquer outro site onde você encontre este programa é uma FALSIFICAÇÃO e vai contra as leis. Evite falsificações e recuse conteúdos ilegais ou pirateados. NÃO adquira programas parecidos e que não são baseados em evidências. Não nos responsabilizamos por compras realizadas em outros sites.
                 </div>
                 <div class="col-xs-12 col-md-6">
                     <div class="row">
                         <div class="col text-center">
-                            <center><img src="https://esquematiza.com.br/cursos/emergencia-1/wp-content/uploads/2016/03/Untitled-23.png" alt="Emergência1" width="70%"></center>
+                            <center><img src="/static/img/logo-ss.png" alt="Emergência1" width="70%"></center>
                         </div>
                     </div>
                     <div class="row cpy">
                         <div class="col text-center">
-                            Copyright 2020 - Emergência 1 Treinamentos®<br>
+                            Copyright 2020 - Fornecedores 7 Chaves ®<br>
                             Todos os direitos reservados.
                         </div>
                     </div>
@@ -680,35 +677,42 @@
             $(window).enllax();
         })(jQuery);
     </script>
-    <!-- OS SCRIPTS A SEGUIR SÓ VÃO FUNCIONAR SE CLICKTRACK.PHP E JSON.TXT ESTIVEREM JUNTO DO INDEX.PHP -->
-    <!-- CONTAGEM DOS ACESSOS NA PÁGINA -->
-    <script>
-    $(document).ready(() => {
-        $.ajax({
-            data: {acesso: 1},
-            type: "post",
-            url: "clicktrack.php",
-            success: function(data){
-                console.log(data);
-            }
-        })
-    })
-    </script>
-    <!-- CONTAGEM DOS CLIQUES NOS BOTÕES -->
-    <script>
-        $(document).ready(() => {
-            $(".btn").click(() => {
-                $.ajax({
-                    data: {clickado: 1},
-                    type: "post",
-                    url: "clicktrack.php",
-                    success: function(data){
-                        console.log(data);
-                    }
-                })
-            })
-        })
-    </script>
+
+    <!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '443698213458699');
+  fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=443698213458699&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '984433812046567');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=984433812046567&amp;ev=PageView&amp;noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
 
 </body>
 </html>
