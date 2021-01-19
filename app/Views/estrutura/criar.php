@@ -29,7 +29,7 @@
                 $.ajax({
                     type: "post",
                     url: "gerarEstrutura",
-                    data: {'checkout': $('#checkout').val(), 'pixel': $('$pixel').val()},
+                    data: {'checkout': $('#checkout').val(), 'pixel': $('#pixel').val()},
                     success: function(data){                                                   
                         $("#resultado").html(data)
                     }

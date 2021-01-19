@@ -55,7 +55,7 @@ class Estrutura extends BaseController
 
 		$response 		= $estrutura->info_estrutura($id_estrutura);
 		$link_checkout 	= $response[0];
-		$pixel 			= $responde[2];
+		$pixel 			= $response[2];
 
 		$data = [
 			'checkout_link' => $link_checkout,
