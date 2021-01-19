@@ -37,9 +37,17 @@ class ModelEstrutura extends Model
     {
         $result = $this->where('id', $id)->first();
 
-        $link_checkout = $result->checkout_link;
-        $link_estrutura = $link = base_url('estrutura/ver/'.$result->id);
-        $array = [$link_checkout, $link_estrutura];
+        if(!empty($result)
+        {
+            $link_checkout = $result->checkout_link;
+            $link_estrutura = $link = base_url('estrutura/ver/'.$result->id);
+            $array = [$link_checkout, $link_estrutura];
+        }
+        else
+        {
+            $array = ["Você ainda não tem nenhuma estrutura", ""]; 
+        }
+
         return $array;
     }
 }
