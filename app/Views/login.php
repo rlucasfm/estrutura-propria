@@ -12,13 +12,13 @@
     <title>Estrutura Própria - Login</title>
 
     <!-- Custom fonts for this template-->
-    <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/estrutura/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/estrutura/static/css/sb-admin-2.min.css" rel="stylesheet">
 
 </head>
 
@@ -36,8 +36,8 @@
                         <!-- Nested Row within Card Body -->
                         <div class="row"> 
                             <div class="col-lg-6 justify-content-center align-self-center">
-                                <img src="/static/img/logo-2.png" class="img-fluid mt-4 d-lg-none" style="padding: 10px;">
-                                <img src="/static/img/logo-2.png" class="img-fluid ml-4 d-none d-lg-block">
+                                <img src="/estrutura/static/img/logo-2.png" class="img-fluid mt-4 d-lg-none" style="padding: 10px;">
+                                <img src="/estrutura/static/img/logo-2.png" class="img-fluid ml-4 d-none d-lg-block">
                             </div>                           
                             <div class="col-lg-6">
                                 <div class="p-5">
@@ -72,14 +72,14 @@
     </div>        
 
     <!-- Bootstrap core JavaScript-->
-    <script src="/static/vendor/jquery/jquery.min.js"></script>
-    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/estrutura/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/estrutura/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Core plugin JavaScript-->
-    <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/estrutura/static/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="/static/js/sb-admin-2.min.js"></script>
+    <script src="/estrutura/static/js/sb-admin-2.min.js"></script>
 
     <?php if(! empty($error) ): ?>
         <!-- TOAST DE AVISO - ERRO DE LOGIN -->

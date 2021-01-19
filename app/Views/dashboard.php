@@ -3,7 +3,7 @@
 
     <!-- Content Row -->
     <div class="h-100 row justify-content-center align-items-center">                                
-        <img src="/static/img/logo-2.png" class="img-fluid rounded mx-auto d-block align-middle">
+        <img src="/estrutura/static/img/logo-2.png" class="img-fluid rounded mx-auto d-block align-middle">
     </div>                    
 
 </div>

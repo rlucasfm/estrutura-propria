@@ -13,14 +13,14 @@
 
     <title>Fornecedores 7 Chaves</title>
 
-    <!--<link rel="shortcut icon" href="/static/img/fav.png">-->
+    <!--<link rel="shortcut icon" href="/estrutura/static/img/fav.png">-->
 
     <!-- CSS -->
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="/estrutura/static/css/style.css">
 
-    <link href="/static/css/ripple.min.css" rel="stylesheet">
+    <link href="/estrutura/static/css/ripple.min.css" rel="stylesheet">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
 
@@ -63,7 +63,7 @@
         <div class="container">
             <div class="row">
                 <div class="col text-center">
-                    <img src="/static/img/ultrasecreto.svg" class="ultrasecreto">
+                    <img src="/estrutura/static/img/ultrasecreto.svg" class="ultrasecreto">
                 </div>
             </div>
             <div class="d-flex justify-content-center" style="margin-bottom: 20px">
@@ -79,7 +79,7 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div class="som"> <img src="/static/img/audio.svg">Verifique se o seu som está ligado!</div>
+                    <div class="som"> <img src="/estrutura/static/img/audio.svg">Verifique se o seu som está ligado!</div>
                 </div>
             </div>
             <div class="row" id="preco" style="display: none;">
@@ -96,10 +96,10 @@
                         ripple">Quero Minha Lista Agora</button></a>
                     <div>
                         <ul class="bandeiras">
-                            <li><img src="/static/img/mastercard.png"></li>
-                            <li><img src="/static/img/paypal.png"></li>
-                            <li><img src="/static/img/visa.png"></li>
-                            <li><img src="/static/img/american.png"></li>
+                            <li><img src="/estrutura/static/img/mastercard.png"></li>
+                            <li><img src="/estrutura/static/img/paypal.png"></li>
+                            <li><img src="/estrutura/static/img/visa.png"></li>
+                            <li><img src="/estrutura/static/img/american.png"></li>
                         </ul>
                     </div>
                 </div>
@@ -120,7 +120,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/1.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/1.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Luciana disse:
@@ -138,7 +138,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/2.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/2.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Larissa disse:
@@ -156,7 +156,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/3.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/3.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Neusa disse:
@@ -175,7 +175,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/4.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/4.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Danielli disse:
@@ -194,7 +194,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/5.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/5.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Juliana disse:
@@ -213,7 +213,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/6.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/6.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Camila Silva disse:
@@ -232,7 +232,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/7.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/7.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Cristiane disse:
@@ -251,7 +251,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Maria Carolina disse:
@@ -270,7 +270,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/9.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/9.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Daniela disse:
@@ -288,7 +288,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/10.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/10.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Janice disse:
@@ -306,7 +306,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/8.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Maria Carolina disse:
@@ -325,7 +325,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/11.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/11.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Helena disse:
@@ -343,7 +343,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/12.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/12.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Michele disse:
@@ -361,7 +361,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/13.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/13.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Juliana disse:
@@ -379,7 +379,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/14.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/14.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Catarina disse:
@@ -397,7 +397,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/15.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/15.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Jéssika disse:
@@ -416,7 +416,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/16.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/16.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Giovanna disse:
@@ -435,7 +435,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/17.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/17.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Bruna disse:
@@ -454,7 +454,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/18.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/18.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Claudia disse:
@@ -472,7 +472,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/19.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/19.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Adriana disse:
@@ -490,7 +490,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/20.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/20.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Aline disse:
@@ -508,7 +508,7 @@
                     <div class="c-content">
                         <div>
                             <div class="foto-c">
-                                <img src="/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
+                                <img src="/estrutura/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
                             </div>
                             <div class="nome-c">
                                 Stefanny disse:
@@ -527,7 +527,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/22.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/22.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Gisele disse:
@@ -545,7 +545,7 @@
                         <div class="resposta-c">
                             <div>
                                 <div class="foto-c">
-                                    <img src="/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
+                                    <img src="/estrutura/static/img/comentarios/21.jpg" alt="Fornecedores 7 Chaves">
                                 </div>
                                 <div class="nome-c">
                                     Bruna disse:
@@ -563,30 +563,30 @@
             </div>
             <div class="row face-c">
                 <div clas="col">
-                    <img src="/static/img/face-icon.png"> Plug-in social do Facebook
+                    <img src="/estrutura/static/img/face-icon.png"> Plug-in social do Facebook
                 </div>
             </div>
         </div>
 
-        <img src="/static/img/c1.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c1.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
             style="z-index: -99" class="c1">
 
-        <img src="/static/img/c2.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".5" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c2.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".5" data-enllax-type="foreground"
             style="z-index:-99" class="c2">
 
-        <img src="/static/img/c3.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".4" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c3.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".4" data-enllax-type="foreground"
             style="z-index:-99" class="c3">
 
-        <img src="/static/img/c4.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".7" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c4.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".7" data-enllax-type="foreground"
             style="z-index:-99" class="c4">
 
-        <img src="/static/img/c5.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".3" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c5.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".3" data-enllax-type="foreground"
             style="z-index:-99" class="c5">
 
-        <img src="/static/img/c6.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
+        <img src="/estrutura/static/img/c6.png" alt="Fornecedores 7 Chaves" data-enllax-ratio=".9" data-enllax-type="foreground"
             style="z-index:-99" class="c6">
 
-        <div class="parallax-window" data-parallax="scroll" data-image-src="/static/img/bg-top.jpg"></div>
+        <div class="parallax-window" data-parallax="scroll" data-image-src="/estrutura/static/img/bg-top.jpg"></div>
 
     </section>
 
@@ -600,10 +600,10 @@
                             ripple">Quero Minha Lista Agora</button></a>
                     <div>
                         <ul class="bandeiras">
-                            <li><img src="/static/img/mastercard.png"></li>
-                            <li><img src="/static/img/paypal.png"></li>
-                            <li><img src="/static/img/visa.png"></li>
-                            <li><img src="/static/img/american.png"></li>
+                            <li><img src="/estrutura/static/img/mastercard.png"></li>
+                            <li><img src="/estrutura/static/img/paypal.png"></li>
+                            <li><img src="/estrutura/static/img/visa.png"></li>
+                            <li><img src="/estrutura/static/img/american.png"></li>
                         </ul>
                     </div>
                 </div>
@@ -634,7 +634,7 @@
                 <div class="col-xs-12 col-md-6">
                     <div class="row">
                         <div class="col text-center">
-                            <center><img src="/static/img/logo-ss.png" alt="Emergência1" width="70%"></center>
+                            <center><img src="/estrutura/static/img/logo-ss.png" alt="Emergência1" width="70%"></center>
                         </div>
                     </div>
                     <div class="row cpy">
@@ -668,9 +668,9 @@
     <!-- Script for smooth scrolling -->
    <script src="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/16.1.3/smooth-scroll.min.js" integrity="sha512-HYG9E+RmbXS7oy529Nk8byKFw5jqM3R1zzvoV2JnltsIGkK/AhZSzciYCNxDMOXEbYO9w6MJ6SpuYgm5PJPpeQ==" crossorigin="anonymous"></script>
 
-    <script src="/static/js/scripts.js"></script>
-    <script src="/static/js/jquery.enllax.min.js"></script>
-    <script src="/static/js/parallax.min.js"></script>
+    <script src="/estrutura/static/js/scripts.js"></script>
+    <script src="/estrutura/static/js/jquery.enllax.min.js"></script>
+    <script src="/estrutura/static/js/parallax.min.js"></script>
 
     <script>
         (function ($) {

@@ -6,7 +6,7 @@ class Estrutura extends BaseController
 {
 	public function index()
 	{
-        return redirect()->to('/');
+        return redirect()->to('/estrutura');
     }
     
     public function criar()

@@ -12,17 +12,17 @@
     <title><?= esc($title) ?></title>
 
     <!-- Custom fonts for this template-->
-    <link href="/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="/estrutura/static/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
 
     <!-- Custom styles for this template-->
-    <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
+    <link href="/estrutura/static/css/sb-admin-2.min.css" rel="stylesheet">
 
     <!-- Bootstrap core JavaScript-->
-    <script src="/static/vendor/jquery/jquery.min.js"></script>
-    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/estrutura/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/estrutura/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 </head>
 
@@ -35,7 +35,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/estrutura">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-desktop"></i>
                 </div>
@@ -52,7 +52,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="/">
+                <a class="nav-link" href="/estrutura">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Início</span></a>
             </li>
@@ -75,8 +75,8 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">                        
-                        <a class="collapse-item" href="/estrutura/criar">Criar estrutura própria</a>
-                        <a class="collapse-item" href="/estrutura/listar">Lista de estruturas</a>
+                        <a class="collapse-item" href="/estrutura/estrutura/criar">Criar estrutura própria</a>
+                        <a class="collapse-item" href="/estrutura/estrutura/listar">Lista de estruturas</a>
                     </div>
                 </div>
             </li>            
@@ -86,7 +86,7 @@
 
             <!-- Sidebar Message -->
             <div class="sidebar-card">
-                <img class="sidebar-card-illustration mb-2" src="/static/img/undraw_rocket.svg" alt="">
+                <img class="sidebar-card-illustration mb-2" src="/estrutura/static/img/undraw_rocket.svg" alt="">
                 <p class="text-center mb-2"><strong>RLDev</strong> oferece os melhores sistemas, quer saber mais?</p>
                 <a class="btn btn-success btn-sm" href="https://www.linkedin.com/in/richard-lucas-furtado-de-mendonca/" target="_blank">Saiba mais!</a>
             </div>
@@ -150,7 +150,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <span class="mr-2 d-none d-lg-inline text-gray-600 small"><?= esc($name) ?></span>
                                 <img class="img-profile rounded-circle"
-                                    src="/static/img/undraw_profile.svg">
+                                    src="/estrutura/static/img/undraw_profile.svg">
                             </a>
                             <!-- Dropdown - User Information -->
                             <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in"

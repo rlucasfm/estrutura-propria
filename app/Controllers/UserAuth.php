@@ -36,7 +36,7 @@ class UserAuth extends BaseController
                 if($loginSuccess)
                 {
                     // Redireciona para a página principal
-                    return redirect()->to('/');
+                    return redirect()->to('/estrutura');
                 }        
             }
         }
@@ -47,7 +47,7 @@ class UserAuth extends BaseController
             if(! empty(session()->get('email')))
             {
                 // Redireciona para a página principal
-                return redirect()->to('/');
+                return redirect()->to('/estrutura');
             }
             else
             {
@@ -61,7 +61,7 @@ class UserAuth extends BaseController
     {
         //Destroe a sessão e retorna para a página de login
         session()->destroy();
-        return redirect()->to('/login');
+        return redirect()->to('login');
     }
 	//--------------------------------------------------------------------
 

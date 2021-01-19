@@ -36,17 +36,17 @@
                 <div class="modal-body">Você está prestes a fazer logout e sair da aplicação. Tem certeza disso?</div>
                 <div class="modal-footer">
                     <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                    <a class="btn btn-primary" href="/logout">Logout</a>
+                    <a class="btn btn-primary" href="/estrutura/logout">Logout</a>
                 </div>
             </div>
         </div>
     </div>
 
     <!-- Core plugin JavaScript-->
-    <script src="/static/vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="/estrutura/static/vendor/jquery-easing/jquery.easing.min.js"></script>
 
     <!-- Custom scripts for all pages-->
-    <script src="/static/js/sb-admin-2.min.js"></script>
+    <script src="/estrutura/static/js/sb-admin-2.min.js"></script>
 
 </body>
 
