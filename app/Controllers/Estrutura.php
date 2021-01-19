@@ -64,6 +64,14 @@ class Estrutura extends BaseController
 
 		echo view('/estrutura/base', $data);
 	}
+
+	public function deletar()
+	{
+		$estrutura = new ModelEstrutura();
+
+		$estrutura->deletar_todas_estruturas(session()->get('id_user'));
+		return redirect()->to('/estrutura/estrutura/listar');
+	}
 	//--------------------------------------------------------------------
 
 }

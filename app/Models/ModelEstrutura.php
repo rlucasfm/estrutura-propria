@@ -52,4 +52,14 @@ class ModelEstrutura extends Model
 
         return $array;
     }
+
+    public function deletar_todas_estruturas($id_user)
+    {
+        try {
+            $this->where('id_user', $id_user)->delete();
+        } catch (\Exception $th) {
+            throw new \Exception('Erro ao deletar: '.$th->getMessage());
+        }
+        
+    }
 }
