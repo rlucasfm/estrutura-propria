@@ -44,18 +44,22 @@ class Estrutura extends BaseController
 	{
 		$estrutura = new ModelEstrutura();
 
-		$link_checkout = $this->request->getPost('checkout');
-		echo $estrutura->cadastrarEstrutura($link_checkout);
+		$link_checkout 	= $this->request->getPost('checkout');
+		$pixel 			= $this->request->getPost('pixel');
+		echo $estrutura->cadastrarEstrutura($link_checkout, $pixel);
 	}
 
 	public function ver($id_estrutura)
 	{
 		$estrutura = new ModelEstrutura();
 
-		$link_checkout = $estrutura->info_estrutura($id_estrutura)[0];
+		$response 		= $estrutura->info_estrutura($id_estrutura);
+		$link_checkout 	= $response[0];
+		$pixel 			= $responde[2];
 
 		$data = [
-			'checkout_link' => $link_checkout
+			'checkout_link' => $link_checkout,
+			'pixel'			=> $pixel
 		];
 
 		echo view('/estrutura/base', $data);

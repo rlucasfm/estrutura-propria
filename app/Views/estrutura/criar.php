@@ -7,6 +7,11 @@
             <input type="text" class="form-control" id="checkout" name="checkout" aria-describedby="emailHelp">
             <small id="emailHelp" class="form-text text-muted">Aqui vai o link que o cliente irá ao clickar no botão de compra.</small>
         </div>
+        <div class="form-group">
+            <label for="pixel">Pixel do Facebook</label>
+            <input type="text" class="form-control" id="pixel" name="pixel" aria-describedby="pixelHelp">
+            <small id="pixelHelp" class="form-text text-muted">Aqui vai o link que o seu pixel do facebook.</small>
+        </div>
         <button type="submit" class="btn btn-primary">Criar estrutura</button>
     </form>  
 
@@ -24,7 +29,7 @@
                 $.ajax({
                     type: "post",
                     url: "gerarEstrutura",
-                    data: {'checkout': $('#checkout').val()},
+                    data: {'checkout': $('#checkout').val(), 'pixel': $('$pixel').val()},
                     success: function(data){                                                   
                         $("#resultado").html(data)
                     }

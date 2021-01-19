@@ -8,11 +8,11 @@ class ModelEstrutura extends Model
     protected $primaryKey       = 'id';
     protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
-    protected $allowedFields    = ['id_user', 'checkout_link'];
+    protected $allowedFields    = ['id_user', 'checkout_link', 'pixel'];
     protected $useTimestamps    = false;
     protected $skipValidation   = true;
 
-    public function cadastrarEstrutura($link_checkout)
+    public function cadastrarEstrutura($link_checkout, $pixel)
     {
         $id_user = session()->get('id_user');
 
@@ -20,12 +20,13 @@ class ModelEstrutura extends Model
        if(empty($estrutura_anterior))
        {           
            $data = [
-               'id_user' => $id_user,
-               'checkout_link' => $link_checkout
+               'id_user'        => $id_user,
+               'checkout_link'  => $link_checkout,
+               'pixel'          => $pixel
            ];
            $this->insert($data);
            $id = $this->where('checkout_link', $link_checkout)->first()->id;
-           $link = base_url('estrutura/ver/'.$id);
+           $link = 'http://www.upconvert.com.br/redirect.php?idcode='.$id;
            return '<a href="'.$link.'"><h3>'.$link.'</h3></a>';
        }else{
             $link = base_url('estrutura/ver/'.$estrutura_anterior->id);
@@ -39,13 +40,14 @@ class ModelEstrutura extends Model
 
         if(!empty($result))
         {
-            $link_checkout = $result->checkout_link;
-            $link_estrutura = $link = base_url('estrutura/ver/'.$result->id);
-            $array = [$link_checkout, $link_estrutura];
+            $link_checkout  = $result->checkout_link;
+            $link_estrutura = 'http://www.upconvert.com.br/redirect.php?idcode='.$result->id;
+            $pixel          = $result->pixel;
+            $array          = [$link_checkout, $link_estrutura, $pixel];
         }
         else
         {
-            $array = ["Você ainda não tem nenhuma estrutura", ""]; 
+            $array = ["Você ainda não tem nenhuma estrutura", "", ""]; 
         }
 
         return $array;
