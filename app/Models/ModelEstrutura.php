@@ -26,7 +26,7 @@ class ModelEstrutura extends Model
            ];
            $this->insert($data);
            $id = $this->where('checkout_link', $link_checkout)->first()->id;
-           $link = 'http://www.upconvert.com.br/redirect.php?idcode='.$id;
+           $link = 'https://www.upconvert.com.br/redirect.php?idcode='.$id;
            return '<a href="'.$link.'"><h3>'.$link.'</h3></a>';
        }else{
             $link = base_url('estrutura/ver/'.$estrutura_anterior->id);
@@ -36,18 +36,18 @@ class ModelEstrutura extends Model
 
     public function info_estrutura($id)
     {
-        $result = $this->where('id', $id)->first();
+        $result = $this->where('id_user', $id)->first();
 
         if(!empty($result))
         {
             $link_checkout  = $result->checkout_link;
-            $link_estrutura = 'http://www.upconvert.com.br/redirect.php?idcode='.$result->id;
+            $link_estrutura = 'https://www.upconvert.com.br/redirect.php?idcode='.$result->id;
             $pixel          = $result->pixel;
             $array          = [$link_checkout, $link_estrutura, $pixel];
         }
         else
         {
-            $array = ["Você ainda não tem nenhuma estrutura", "", ""]; 
+            $array = ["", "Você ainda não tem nenhuma estrutura", ""]; 
         }
 
         return $array;
