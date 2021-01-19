@@ -37,7 +37,7 @@ class ModelEstrutura extends Model
     {
         $result = $this->where('id', $id)->first();
 
-        if(!empty($result)
+        if(!empty($result))
         {
             $link_checkout = $result->checkout_link;
             $link_estrutura = $link = base_url('estrutura/ver/'.$result->id);
