@@ -20,6 +20,10 @@
     <!-- Custom styles for this template-->
     <link href="/static/css/sb-admin-2.min.css" rel="stylesheet">
 
+    <!-- Bootstrap core JavaScript-->
+    <script src="/static/vendor/jquery/jquery.min.js"></script>
+    <script src="/static/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body id="page-top">
@@ -31,7 +35,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="/">
                 <div class="sidebar-brand-icon">
                     <i class="fas fa-desktop"></i>
                 </div>
@@ -48,7 +52,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="index.html">
+                <a class="nav-link" href="/">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Início</span></a>
             </li>
@@ -71,8 +75,8 @@
                 <div id="collapseUtilities" class="collapse" aria-labelledby="headingUtilities"
                     data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">                        
-                        <a class="collapse-item" href="#">Criar estrutura própria</a>
-                        <a class="collapse-item" href="#">Lista de estruturas</a>
+                        <a class="collapse-item" href="/estrutura/criar">Criar estrutura própria</a>
+                        <a class="collapse-item" href="/estrutura/listar">Lista de estruturas</a>
                     </div>
                 </div>
             </li>            
@@ -115,7 +119,7 @@
                                 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
                                 <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
+                                <span class="badge badge-danger badge-counter">1</span>
                             </a>
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in"
@@ -130,8 +134,8 @@
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">15 de Janeiro, 2021</div>
-                                        <span class="font-weight-bold">Ínicio do desenvolvimento da nova plataforma!</span>
+                                        <div class="small text-gray-500">2021</div>
+                                        <span class="font-weight-bold">Bem-vindo ao gerador de estrutura própria!</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Mostrar todos</a>

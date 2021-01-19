@@ -1,13 +1,13 @@
 <?php namespace App\Controllers;
 
-use App\Models\User;
+use App\Models\ModelEstrutura;
 
 class UnitTester extends BaseController
 {
 	public function index()
 	{
-        $userModel = new User();
-        $userModel->authUser("123@456","123");
+        $userModel = new ModelEstrutura();
+        $userModel->cadastrarEstrutura("123");
 	}
 
 	//--------------------------------------------------------------------
